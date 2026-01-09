@@ -58,8 +58,15 @@ header .cta button{
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 16px;
+    border: 2px solid var(--primary-color);
     cursor: pointer;
 
+}
+
+header .cta button:hover{
+    background: transparent;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
 }
 
 
@@ -224,7 +231,7 @@ header .cta button{
     gap: 20px;
     margin-top: 10px;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     text-align: center;
 
 }
@@ -240,6 +247,7 @@ header .cta button{
     justify-content: flex-start;
     align-items: center;
     text-align: center;
+    width: 300px;
 
 }
 .features-section .card-container .cards img{
@@ -348,4 +356,155 @@ header .cta button{
     color: #fff;
     padding: 10px;
     font-size: 10px;
+}
+
+
+/* call to action bottom */
+.cta-bottom{
+    padding: 40px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+
+    
+}
+
+.cta-bottom .cta-content {
+    width: 100%;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 12px;
+}
+
+
+.cta-bottom .cta-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--heading-color);
+    line-height: 50px;
+    text-transform: capitalize;
+}
+.cta-bottom .cta-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 20px;   
+}
+
+.cta-bottom .cta-content button{
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 12px 16px;
+    border-radius: 4px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid var(--primary-color);
+    text-transform: capitalize;
+}
+.cta-bottom .cta-content button:hover{
+    background: transparent;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.cta-bottom .cta-content .cta-footer-note{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.cta-bottom .cta-content .cta-footer-note li:last-child{
+    list-style-type: disc;
+}
+
+
+/* Footer section */
+
+footer{
+    background: #001931;
+    padding: 80px 40px 5px;
+    color: #fff;
+   
+    margin: auto;
+}
+footer .footer-content{
+     max-width: 1400px;
+     margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 40px;  
+    flex-wrap: wrap;
+}
+
+footer .footer-content div{
+    width: 48%;
+}
+footer .footer-content .site-logo-footer a{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+footer .footer-content .social-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+footer .footer-content .social-links h4{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 16px;
+    text-transform: capitalize;
+}
+footer .footer-content .social-items{
+    display: flex;
+    gap: 10px;
+    margin-top: 16px;
+    list-style: none;
+}
+
+footer .footer-content .social-items li a{
+    color: #000;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+footer .footer-content .copyright-note{
+    width: 100%;
+    text-align: center;
+    display: block;
+    border-top: 1px solid #e5e7eb3d;
+    padding: 20px;;
+}
+
+footer .footer-content .copyright-note p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
 }
