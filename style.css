@@ -265,3 +265,87 @@ header .cta button{
     line-height: 28px;
 }
 
+
+
+/* Solution section */
+
+.solution-section{
+    padding: 50px 16px;
+    max-width: 1400px;
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.solution-section .left-side img{
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+
+}
+
+.solution-section .right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+
+}
+.solution-section .right-side h3{
+    font-size: 16px;
+    color: var(--primary-color);
+    background-color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.solution-section .right-side h2{
+    font-size: 48px;
+    color: #001931;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 50px;
+}
+
+.solution-section .right-side p{
+    font-size: 16px;
+    color: var(--text-color);
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.solution-section .right-side ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.solution-section .right-side ul li{
+    font-size: 16px;
+    color: #001931;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+.solution-section .right-side ul li i{
+    background: #30B868;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+    font-size: 10px;
+}
